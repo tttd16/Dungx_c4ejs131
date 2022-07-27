@@ -1,8 +1,72 @@
+.post-container {
+    padding: 0 22.5vw;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post-container .article-info {
+    justify-content: center;
+}
+
 .header{
     display: flex;
 }
-.article-info.header.profile-picture {
-    width: 73px;
-    height: 73px;
-    background-color: #ccc;
+
+.article-info {
+    flex-direction: column-reverse;
+    font-size: 1rem;
+}
+
+.article-info .header .profile-picture {
+    min-width: 3.3333rem;
+    width: 4.875rem;
+    height: 4.875rem;
+    margin-right: 1rem;
+    background-color: #8d8d8d;
+    border-radius: 50%;
+}
+
+.article-info .header .right {
+    height: 4,875rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 3.3333rem;
+}
+
+.status {
+    color: #8d8d8d;
+    margin: 4px 0 ;
+}
+
+.article-info .categories {
+    color: #e53636;
+    text-transform: capitalize;
+}
+
+.article-info .title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.mindx-img {
+    position: relative;
+    width: 100%;
+}
+.article-content-container{
+    font-size: 1.25rem;
+}
+
+/* cuối */
+.social-share .share-message{
+    margin: 2rem 0 1rem 0;
+    text-align: center;
+    font-size: 1.667rem;
+    font-weight: 600;
+}
+
+.post-container .social-share {
+    font-size: 40px;
+    text-align: center;
+
 }
