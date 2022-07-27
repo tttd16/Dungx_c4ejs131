@@ -1,3 +1,7 @@
+.col-xs img {
+    object-fit: cover;
+}
+
 .post-container {
     padding: 0 22.5vw;
     flex-direction: column;
@@ -10,6 +14,13 @@
 
 .header{
     display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+h1 {
+    margin-bottom: 2rem;
+
 }
 
 .article-info {
@@ -34,12 +45,13 @@
     min-height: 3.3333rem;
 }
 
+
 .status {
     color: #8d8d8d;
-    margin: 4px 0 ;
+    margin: 0.333rem 0 ;
 }
 
-.article-info .categories {
+.article-info .categories a {
     color: #e53636;
     text-transform: capitalize;
 }
@@ -49,12 +61,19 @@
     margin-bottom: 2rem;
 }
 
+/* Thân */
 .mindx-img {
     position: relative;
     width: 100%;
 }
+
+.article-content-container em {
+    font-style: italic;
+}
+
 .article-content-container{
     font-size: 1.25rem;
+
 }
 
 /* cuối */
