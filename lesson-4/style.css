@@ -33,6 +33,10 @@
     color: blue;
 }
 
+.week .li {
+    padding-left: 28px;
+}
+
 .week .li-3 {
     color: red;
 }
