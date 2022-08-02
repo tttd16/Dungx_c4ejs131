@@ -1,0 +1,38 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#head {
+    display: inline-block;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#head > h2 {
+    color: red;
+    border-top: 6px double red ;
+    border-bottom: 6px double red ;
+    background-color: #dba0a0;
+    text-align: center;
+    font-size: 26px;
+}
+
+#head > h3 {
+    font-size: 20px;
+}
+
+.week {
+    border: 2px solid blue;
+    padding: 18px;
+    margin-top: 20px;
+    background-color: #95a7ed;
+}
+
+.week > h4 {
+    color: blue;
+}
+
+.week .li-3 {
+    color: red;
+}
