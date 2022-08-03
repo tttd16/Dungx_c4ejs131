@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box;  */
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0 0 0.35em;
+}
+
+/* Header */
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px;
+}
+
+header {
+  background-color: rebeccapurple;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 40px;
+}
+
+/* Main */
+.container h2 {
+  font-size: 28px;
+}
+
+.container .card-row {
+  display: grid;
+}
+
+.container .card-row .card {
+  padding: 20px;
+  border: 1px solid #c9c9c9;
+  border-radius: 7px;
+  box-shadow: 2px 2px 4px rgb(0 0 0 / 15%);
+}
+
+.container .card img {
+  border-radius: 7px 7px 0 0;
+  margin-bottom: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+.card h3 {
+  font-size: 20px;
+  color: rebeccapurple;
+  align-items: start;
+}
+
+.card h3 em {
+  padding: 0.25em;
+  background-color: #eddbff;
+  border-radius: 4px;
+}
+
+.card p {
+  color: #757575;
+  line-height: 1.5;
+  margin: 0 0 1.15em;
+}
+
+.container .card .button {
+  text-decoration: none;
+  background-color: rebeccapurple;
+  color: #fff;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.card .button:hover {
+  background-color: #ccc;
+}
+
+/* Footer */
+
+footer {
+  border-top: 2px solid rebeccapurple;
+}
