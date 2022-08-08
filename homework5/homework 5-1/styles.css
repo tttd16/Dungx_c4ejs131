@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* header-1 */
+#header-1 {
+    display: flex;
+}
+
+#header-1 li img {
+    width: 35px;
+    height: 35px;
+}
