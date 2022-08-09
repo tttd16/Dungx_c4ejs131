@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 400px;
+    background-color: #000;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+}
+
+.violet {
+    background-color: violet;
+    flex-grow: 0;
+}
+
+.orange {
+    background-color: orange;
+    flex-grow: 5;
+}
+
+.green {
+    background-color: green;
+    flex-grow: 1;
+}
