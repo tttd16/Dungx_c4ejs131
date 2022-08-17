@@ -1,4 +1,5 @@
-/* Bài 1
+//Bài 1
+/*
 const operator = prompt('Enter operator ( either +, -, * or / ): ');
 let a =parseInt(prompt());
 let b =parseInt(prompt());
@@ -17,30 +18,34 @@ let result;
 
 // Cash 2
 switch (operator) {
-    case `+` : {
+    case `+` : 
         console.log(result = a + b);
         break;
-    }
-    case `-` : {
+    
+    case `-` : 
         console.log(result = a - b);
         break;
-    }
-    case `*` : {
+    
+    case `*` : 
         console.log(result = a * b);
         break;
-    }
-    case `/`  : {
+    
+    case `/`  : 
         console.log(result = a / b);
         break;
-    }
+    
+    default: 
+        console.log('Không biết')
 }
 
 console.log(`${a} ${operator} ${b} = ${result}`);
+
 */
 
 
 // BÀI 2
 
+/*
 const number = parseInt(prompt("Nhập số: "));
 let isPrime = true;
 
@@ -66,4 +71,4 @@ if(isPrime == true) {
     console.log('Không là số nguyên tố:', number)
 }
 
-
+*/
