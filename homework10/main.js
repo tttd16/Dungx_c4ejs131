@@ -70,20 +70,21 @@ var user = {
     weight: 68,
   },
 };
-function getAll(user, key) {
-  if(!(user instanceof Array) && typeof user == 'object') {
-    for( let i in user) {
-        key.push[i];
-        let value = user[i];
-        if(typeof value === 'object' && !(value instanceof Array)) {
-            getAll(value, key);
-            console.log(key)
+
+function getAll(obj) {
+    if(!(obj instanceof Array) && typeof obj == 'object') {
+        let key = Object.keys(obj)
+        console.log(key)
+        for(let i in obj) {
+            key.push(i);
+            let value = obj[i];
+            if(typeof value === 'object' && !(value instanceof Array)) {
+                console.log(Object.keys(value))
+            }
         }
     }
-  }
-  return key;
 }
-getAll(user, key);
+getAll(user);
 
 //HW6 Write function to insert element at index of aray
 
